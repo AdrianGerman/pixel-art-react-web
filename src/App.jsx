@@ -1,9 +1,10 @@
 import "./App.css"
+import Welcome from "./components/Welcome"
 
 function App() {
   return (
     <>
-      <h1 className="text-6xl font-bold">Pixel art finance</h1>
+      <Welcome />
     </>
   )
 }
